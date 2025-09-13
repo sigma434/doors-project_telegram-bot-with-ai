@@ -1,7 +1,7 @@
 import telebot
 
 # Замени 'TOKEN' на токен твоего бота
-bot = telebot.TeleBot("7817058953:AAHE8Goy-3RBC99C9Q3jsegvBWh2dCBtux8")
+bot = telebot.TeleBot("YOUR TOKEN")
 
 
 @bot.message_handler(content_types=['photo'])
